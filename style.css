@@ -29,7 +29,12 @@ marquee{
     border: 2px dashed brown;
     margin-bottom: 20px;
 }
-
+#pl1{
+    display: block;
+}
+#pl2{
+    display: none;
+}
 h2{
     font-size: 26px;
     text-align: center;
@@ -70,7 +75,19 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-
+#winner-box{
+    background-image: url(./assets/winner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 40px;
+  
+}
+#winner-box h2, #winner-box h3{
+    color: antiquewhite;
+    padding: 10px 60px;
+    opacity: 1;
+}
 /* Responsive design */
 
 @media screen and (min-width: 320px) and (max-width:425px){
@@ -88,4 +105,18 @@ input[type=submit]:hover {
     form{
         padding: 10px;
     }
+
+    #winner-box{
+        background-image: none;
+        background-color: black;
+        padding: 0;
+    }
+    #winner-box h2, #winner-box h3{
+        font-size: 20px;
+        padding: 10px 10px;
+        margin: 20px 0;
+    }
+
+
+
 }
