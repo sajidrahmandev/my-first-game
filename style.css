@@ -81,6 +81,7 @@ input[type=submit]:hover {
     background-size: cover;
     height: 500px;
     padding: 40px;
+    display: none;
   
 }
 #winner-box h2, #winner-box h3{
